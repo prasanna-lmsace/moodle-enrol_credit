@@ -689,7 +689,7 @@ class enrol_credit_plugin extends enrol_plugin {
      * @throws \coding_exception
      * @since 1.0
      */
-    protected function get_longtimenosee_options() {
+    public function get_longtimenosee_options() {
         $options = [0 => get_string('never'),
                     1800 * 3600 * 24 => get_string('numdays', '', 1800),
                     1000 * 3600 * 24 => get_string('numdays', '', 1000),
