@@ -1065,7 +1065,7 @@ class enrol_credit_plugin extends enrol_plugin {
 
     /**
      * Reduce the amount of credits used to enrol into course from user record.
-     * 
+     *
      * @param int $userid
      * @param int $amount
      * @throws dml_exception
@@ -1083,7 +1083,7 @@ class enrol_credit_plugin extends enrol_plugin {
 
     /**
      * Add the given credits to user accounts.
-     * 
+     *
      * @param int $userid
      * @param int $credits
      * @throws dml_exception

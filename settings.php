@@ -103,7 +103,7 @@ if ($ADMIN->fulltree) {
 
     $settings->add(new admin_setting_configduration('enrol_credit/expirythreshold',
         get_string('expirythreshold', 'core_enrol'), get_string('expirythreshold_help', 'core_enrol'), 86400, 86400));
-    
+
     $options = (new enrol_credit_plugin())->get_longtimenosee_options();
     $settings->add(new admin_setting_configselect('enrol_credit/longtimenosee',
         get_string('longtimenosee', 'enrol_credit'), get_string('longtimenosee_help', 'enrol_credit'), 0, $options));
